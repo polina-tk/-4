@@ -6,7 +6,6 @@ body {
     color: #333;
 }
 
-/* Header */
 .header {
     background-color: #a8c7e6;
     padding: 15px 20px;
@@ -48,7 +47,7 @@ body {
 /* Main Content */
 .main-content {
     padding: 20px;
-    /* text-align: center; <-- Удаляем или меняем на начало, если это мешает другим элементам */
+    /* text-align: center; 
 }
 
 .airport-title {
@@ -56,13 +55,11 @@ body {
     margin-bottom: 20px;
     color: #333;
     font-weight: 700;
-    /* Стиль для центрирования */
     text-align: center; 
     max-width: 1200px;
-    margin: 0 auto 20px; /* Центрируем блок и добавляем отступ */
+    margin: 0 auto 20px; 
 }
 
-/* Hero Section: Text Left, Image Right */
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -85,7 +82,7 @@ body {
     margin: 5px 0;
     font-weight: 700;
     line-height: 1.2;
-    color: #333; /* Текст слева, поэтому делаем его темным */
+    color: #333; 
 }
 
 .hero-image {
@@ -98,13 +95,12 @@ body {
 
 .button-container {
     max-width: 1200px;
-    margin: 0 auto; /* Центрируем контейнер */
-    text-align: left; /* Выравниваем содержимое контейнера (кнопку) по левому краю */
-    margin-bottom: 40px; /* Отступ между кнопкой и таблицей */
+    margin: 0 auto; 
+    text-align: left; 
+    margin-bottom: 40px; 
 }
 
 .flight-button {
-    /* Базовые стили кнопки (дизайн) */
     background-color: #f0d4a5;
     color: #333;
     border: none;
@@ -115,7 +111,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
     
-    /* Убеждаемся, что кнопка не занимает всю ширину */
     display: inline-block; 
 }
 
@@ -123,7 +118,6 @@ body {
     background-color: #e0c395;
 }
 
-/* Flights Table */
 .flights-table {
     background-color: #dee7ef;
     border-radius: 10px;
@@ -161,9 +155,7 @@ body {
     min-width: 100px;
 }
 
-/* About Us Section: Background Image */
 .about-us {
-    /* Замените эту ссылку на реальное фоновое изображение */
     background-image: url("C:/Users/polin/OneDrive/Рабочий стол/о нас фото.png"); 
     background-size: cover;
     background-position: center;
@@ -180,7 +172,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Темный оверлей */
+    background-color: rgba(0, 0, 0, 0.5); 
     z-index: 1;
 }
 
@@ -236,19 +228,17 @@ body {
     line-height: 1.6;
 }
 .about-link {
-    text-decoration: none; /* Убираем подчеркивание */
-    color: inherit; /* Наследуем цвет */
+    text-decoration: none;
+    color: inherit; 
 }
 .about-link h2 {
-    /* Чтобы h2 сохранил свои стили */
     color: #f0d4a5;
     margin: 0;}
 
 .about-link:hover {
-    opacity: 0.8; /* Можно добавить эффект при наведении */
+    opacity: 0.8; 
 }
 
-/* Footer: Adjusted Layout */
 .footer {
     background-color: #a8c7e6;
     padding: 30px 20px;
@@ -266,7 +256,7 @@ body {
 
 .social-media {
     flex: 1;
-    text-align: center; /* Центрирование социальных сетей */
+    text-align: center; 
 }
 
 .social-icons {
@@ -281,7 +271,7 @@ body {
 
 .footer-right {
     flex: 1;
-    text-align: right; /* Размещение контактов справа */
+    text-align: right; 
 }
 
 .contact-info {
@@ -311,7 +301,6 @@ body {
     color: #333;
 }
 
-/* Responsiveness */
 @media (max-width: 992px) {
     .hero-section {
         flex-direction: column;
@@ -320,7 +309,7 @@ body {
 
     .hero-image {
         max-width: 100%;
-        order: -1; /* Изображение остается сверху на мобильных */
+        order: -1; 
         margin-bottom: 20px;
     }
     
@@ -354,7 +343,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    /* Адаптивность таблицы (как в предыдущем варианте) */
     .table-header { display: none; }
     .table-row {
         flex-direction: column;
@@ -383,4 +371,5 @@ body {
         text-align: center;
         margin-bottom: 30px;
     }
+
 }
