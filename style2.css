@@ -6,7 +6,6 @@ body {
     color: #333;
 }
 
-/* Header (Базовые стили из предыдущего макета) */
 .header {
     background-color: #a8c7e6;
     padding: 15px 20px;
@@ -47,7 +46,6 @@ body {
     margin-left: 15px;
 }
 
-/* Main Content */
 .main-content {
     padding: 20px;
     max-width: 1000px;
@@ -62,7 +60,6 @@ body {
     line-height: 1.3;
 }
 
-/* Основное изображение */
 .image-container {
     width: 100%;
     margin-bottom: 40px;
@@ -77,16 +74,14 @@ body {
     display: block;
 }
 
-/* Сервисные точки */
 .service-points {
     position: relative;
     padding-bottom: 40px;
-    /* Добавляем фоновое изображение самолета, как на макете */
     background-image: url("C:/Users/polin/OneDrive/Рабочий стол/самолет.png");
     background-repeat: no-repeat;
     background-position: right 10% bottom 20%;
     background-size: 300px;
-    opacity: 0.8; /* Делаем его полупрозрачным */
+    opacity: 0.8; 
 }
 
 .point-item {
@@ -100,7 +95,7 @@ body {
     flex-shrink: 0;
     width: 120px;
     height: 120px;
-    background-color: #92A6BE; /* Цвет блока иконок */
+    background-color: #92A6BE; 
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -110,7 +105,7 @@ body {
 
 .service-icon {
     font-size: 50px;
-    color: black; /* Цвет иконок */
+    color: black; 
 }
 
 .text-block {
@@ -147,7 +142,7 @@ body {
 
 .social-media {
     flex: 1;
-    text-align: center; /* Центрирование социальных сетей */
+    text-align: center; 
 }
 
 .social-icons {
@@ -162,7 +157,7 @@ body {
 
 .footer-right {
     flex: 1;
-    text-align: right; /* Размещение контактов справа */
+    text-align: right; 
 }
 
 .contact-info {
@@ -192,7 +187,6 @@ body {
     color: #333;
 }
 
-/* Responsiveness */
 @media (max-width: 768px) {
     .page-title {
         font-size: 1.6em;
@@ -222,7 +216,6 @@ body {
         background-size: 200px;
     }
 
-    /* Footer adjustments for mobile */
     .footer {
         flex-direction: column;
     }
@@ -233,7 +226,7 @@ body {
     }
     
     .social-media {
-        order: -1; /* Соцсети сверху */
+        order: -1; 
     }
 
     .contact-info {
@@ -248,4 +241,5 @@ body {
     .page-title {
         font-size: 1.4em;
     }
+
 }
